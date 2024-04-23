@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
+
+
 
 
 @Component({
@@ -18,11 +21,7 @@ import { HomeComponent } from './home/home.component';
     </section>
   </main>
   <section>
-    <form>
-      <input type="text" placeholder="Filter by city">
-      <button class="primary" type="button">Search</button>
-    </form>
-  </section>
+  
 `,
   styleUrls: ['./app.component.css'],
 })
